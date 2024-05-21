@@ -34,6 +34,6 @@ export async function POST(request:Request){
         return Response.json({
             success:false,
             message:"Internal server Error"
-        },{status:400})
+        },{status:500})
     }
 }
